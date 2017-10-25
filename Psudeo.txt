@@ -14,11 +14,8 @@ Turns
 Each player gets equal cards in there deack
 While no player has 52 cards
   Each player plays one card from there deck.
-  if your card is highest;
-    take the cards.
-  else if some else has the highest card;
-    they take the cards.
-  else atleast 2 players have cards with the same value;
+  if a player has a card which has a value higher than all other cards then they take the other players cards;
+  else at least 2 players have cards with the same value;
     a 'war' starts.
     each player in the war plays on card face down.
     then on card face up.
