@@ -1,7 +1,7 @@
 The game is War.
 Rules
-The way you play war is all players split the deck equally.
-Each turn all players reveal the top card of there decks. 
+The way you play war is all players split the deck equally. // Split deck, find middle point
+Each turn all players reveal the top card of there decks. // Hands can be stored in an array
 The person with the highest card takes the card
 if  the cards are equal ;
   then it is a "war".
@@ -10,7 +10,7 @@ Then a face up card form the top of your deck.
 The highest face up card wins and takes all six cards.
 The game is over when on player is out of cards.
 
-Turns
+Turns // Loop
 Each player gets equal cards in there deack
 While no player has 52 cards
   Each player plays one card from there deck.
@@ -29,6 +29,6 @@ While no player has 52 cards
     repeat;
 if you have 52 cards you win
   you win.
-else some one else has 52 cards
+else some one else has 52 cards // unnecessary, just check for one person to get 52
   they win.
   you lose.
